@@ -137,11 +137,24 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 #          with a ``/``, otherwise end them with ``/index.html`` — or
 #          else they won’t be highlighted when active.
 
+# NAVIGATION_LINKS = {
+#     DEFAULT_LANG: (
+#         ('/index.html', 'Home'),
+#         ((
+#         ), 'Pages'),        
+#         ((
+#             ('/posts', 'Posts'),
+#             ("/archive.html", "Archive"),
+#             ("/categories/", "Tag"),
+#             ("/rss.xml", "RSS"),
+#         ), 'Posts'),
+#         ('https://github.com/reachlab-kr', 'GitHub'),
+#     ),
+# }
+
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ('/index.html', 'Home'),
-        ((
-        ), 'Pages'),        
         ((
             ('/posts', 'Posts'),
             ("/archive.html", "Archive"),
